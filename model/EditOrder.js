@@ -3,9 +3,8 @@ const { Schema, ObjectId } = mongoose; // Importing Schema and ObjectId from Mon
 
 const editOrderDetailSchema = Schema(
   {
-    editOrderById: {
+    editOrderBy: {
       type: String,
-
     },
     editOrderId: {
       type: String,
